@@ -1,0 +1,27 @@
+package seleniumNewcode;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ExplicitWaitDemo {
+
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver","D:\\selenium data\\chromedriver_win32\\chromedriver.exe");
+		WebDriver dr= new ChromeDriver();
+		JavascriptExecutor js=  (JavascriptExecutor)dr;
+		dr.get("https://demoqa.com/browser-windows");
+		dr.manage().window().maximize();
+		
+//		js.executeScript("window.scrollBy(0,1000)");
+//		dr.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[2]/div[1]/div/div/div[3]/span/div/div[1]")).click();
+		Thread.sleep(3000);
+		dr.findElement(By.xpath("//body/div[@id='app']/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[2]")).click();
+//		dr.findElement(By.id("timerAlertButton")).click();
+		
+		dr.close();
+
+	}
+
+}
