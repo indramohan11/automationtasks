@@ -16,8 +16,7 @@ public class DynamicallyChangingWebElement {
 		driver.get("https://www.rediff.com/");
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//a[@title='Create Rediffmail Account']")).click();
-//		driver.findElement(By.name("btnchkavail87804d4a")).click();
-		
+//		driver.findElement(By.name("btnchkavail87804d4a")).click();	
 		driver.findElement(By.xpath("//input[starts-with(@name,'login')]")).sendKeys("indra");;
 		driver.findElement(By.xpath("//input[starts-with(@name,'btnch')]")).click();
 		
