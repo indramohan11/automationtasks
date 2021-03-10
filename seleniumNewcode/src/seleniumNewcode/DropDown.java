@@ -14,8 +14,8 @@ public class DropDown {
 		dr.get("http://demo.guru99.com/test/newtours/register.php");
 		dr.manage().window().maximize();
 		Select select= new Select(dr.findElement(By.name("country")));
-//		select.selectByIndex(7);
-//		select.selectByValue("BANGLADESH");
+		select.selectByIndex(7);
+		select.selectByValue("BANGLADESH");
 		select.selectByVisibleText("AUSTRIA");
 		
 
