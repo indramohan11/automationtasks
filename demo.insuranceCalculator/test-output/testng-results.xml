@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-22T15:28:45 IST" name="Suite" finished-at="2021-04-22T15:29:16 IST" duration-ms="31235">
+    <groups>
+    </groups>
+    <test started-at="2021-04-22T15:28:45 IST" name="Test" finished-at="2021-04-22T15:29:16 IST" duration-ms="31235">
+      <class name="testdata.ErrorValueTestCases">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testdata.ErrorValueTestCases@5b04476e]" started-at="2021-04-22T15:28:45 IST" name="launchBrowser" finished-at="2021-04-22T15:28:56 IST" duration-ms="11190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="sample(java.lang.Object)[pri:0, instance:testdata.ErrorValueTestCases@5b04476e]" started-at="2021-04-22T15:28:56 IST" name="sample" data-provider="vehicledata" finished-at="2021-04-22T15:29:01 IST" duration-ms="5219" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Insurance Sum=7.000.000,00, Gender=Male, Damage Insurance=Partial Coverage, Engine Performance=1111, Courtesy Car=Yes, Start Date="1/12/2025", Zip Code=534462, List Price=2000, Street Address=2-152, Optional Products=Euro Protection, First name=Indra, price validation for silver=76, price validation for ultimate=842, TC NAME=verify motorcycle, price validation for Gold=225, Merit Rating=Bonus 3, Date Of Birth="'7/25/1994", Select Option=Silver, Make=Ford, City=Bhogole, TC NO=1, Hobbies=Others, Skydiving, Date Of manufacture="12/12/2007", Annual Milleage=300, Occupation=Employee, Country=India, price validation for platinum=442, Last Name=Mohan, number Of Seats=7, Fuel type=Petrol}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [255.00] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [255.00] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at testdata.ErrorValueTestCases.sample(ErrorValueTestCases.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testdata.ErrorValueTestCases@5b04476e]" started-at="2021-04-22T15:29:01 IST" name="tearDown" finished-at="2021-04-22T15:29:02 IST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testdata.ErrorValueTestCases@5b04476e]" started-at="2021-04-22T15:29:02 IST" name="launchBrowser" finished-at="2021-04-22T15:29:10 IST" duration-ms="8305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="sample(java.lang.Object)[pri:0, instance:testdata.ErrorValueTestCases@5b04476e]" started-at="2021-04-22T15:29:10 IST" name="sample" data-provider="vehicledata" finished-at="2021-04-22T15:29:15 IST" duration-ms="4960" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Insurance Sum=5.000.000,00, Gender=Female, Damage Insurance=Partial Coverage, Engine Performance=1212, Courtesy Car=No, Start Date="4/9/2023", Zip Code=600096, List Price=1500, Street Address=2-145, Optional Products=Euro Protection, First name=tinku, price validation for silver=76, price validation for ultimate=842, TC NAME=verify motorcycle, price validation for Gold=225, Merit Rating=Bonus 4, Date Of Birth="7/25/1994", Select Option=Gold, Make=Renault, City=hyderabda, TC NO=2, Hobbies=Cliff Diving, Speeding, Date Of manufacture="2/12/2006", Annual Milleage=500, Occupation=Employee, Country=India, price validation for platinum=442, Last Name=Mohan, number Of Seats=3, Fuel type=Diesel}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [255.00] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [255.00] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at testdata.ErrorValueTestCases.sample(ErrorValueTestCases.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testdata.ErrorValueTestCases@5b04476e]" started-at="2021-04-22T15:29:15 IST" name="tearDown" finished-at="2021-04-22T15:29:16 IST" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testdata.ErrorValueTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
